@@ -1,9 +1,41 @@
-body {
-	--base-size: 12px;
-	--gutter: calc(3 * var(--base-size));
+:root {
+	--base-size: 20px;
+	--gutter-size: calc(3 * var(--base-size));
 
 	--color--primary: black;
 	--color--secondary: gold;
-	--color-background: white;
+	--color-background: tomato;
 
+	font-size: var(--base-size);
+
+@media (min-width: 600px) {
+:root {
+	--base-size: 20px;
+}
+}
+
+header {
+	background-color: var(--color-background);
+	padding-block: calc(5*var(--base-size));
+	margin-inline: var(--gutter-sizer);
+	}
+
+footer {
+	padding-top: var(--base-size);
+
+
+#main-content {
+	block-size: 13px;
+	padding-top: var(--base-size);
+	padding-bottom: calc(2*var(--base-size));
+}
+
+section {
+		block-size: 75vh;
+	}
+}
+
+.gutters {
+	padding-inline: var(--gutter-size);
+}	
 }
