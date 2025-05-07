@@ -23,11 +23,12 @@
 :root {
 	--base-size: 22px;
 }
+}
 body {
 	background-color: var(--color-background);
 	color: var(--color-primary);
 	font-family: var(--font-family-primary);
-	padding: 2rem;
+	padding: 1rem 2rem 0rem 2rem;
 }
 
 
@@ -47,6 +48,8 @@ header {
 /* main	 */
 h1 {
 	font-size: calc(7*var(--base-size));
+	letter-spacing: -5px;
+
 }
 p {
 	font-family: var(--font-family-secondary);
@@ -58,8 +61,24 @@ p {
 .title {
 	display: flex;
 }
-
-
+.repository {
+	border-radius: 25px;
+	border-color: var(--color-primary);
+	border: 3px var(--color-primary) solid;
+	padding: .4rem .8rem;
+	font-family: var(--font-family-secondary);
+	font-weight: 400;
+	margin-left: calc(.5*var(--base-size));
+}
+.view-website {
+	border-radius: 25px;
+	padding: .4rem .8rem;
+	font-family: var(--font-family-secondary);
+	font-weight: 400;
+	background-color: var(--color-primary);
+	margin-left: calc(.5*var(--base-size));
+	color: var(--color-background);
+}
 
 /* side-menu */
 .menu {
@@ -86,9 +105,9 @@ footer {
 
 .hero-image {
 
-	width: 100%;
-	height: 33vh;
-	object-fit: cover;
-	overflow: hidden;
+	width: 70%;
+	height: auto;
+	object-fit: contain;
+	display: block;
+	margin: 0 auto;
 	}
-}
