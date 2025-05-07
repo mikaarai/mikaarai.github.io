@@ -84,11 +84,19 @@ p {
 .menu {
 	position: fixed;
 	right: 0;
-	top: 50%;
+	top: 30%;
 	background-color: #F0B5BE;
-	padding: 2rem;
+	padding: 1.5rem;
 	border-top-left-radius: 1.5rem;
 	border-bottom-left-radius: 1.5rem;
+}
+
+.menu ul {
+	display: flex;
+	flex-direction: column;
+	gap: calc(3*var(--base-size)); 
+	padding-top: calc(1.5*var(--base-size)); 
+	padding-bottom: calc(1.5*var(--base-size)); 
 }
 
 
