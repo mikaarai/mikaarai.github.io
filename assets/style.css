@@ -45,7 +45,7 @@ header {
 /* main	 */
 h1 {
 	font-size: calc(7*var(--base-size));
-	letter-spacing: -5px;
+	letter-spacing: -8px;
 }
 p {
 	font-family: var(--font-family-secondary);
@@ -82,7 +82,7 @@ p {
 .menu {
 	position: fixed;
 	right: 0;
-	top: 30%;
+	top: 25%;
 	background-color: #F0B5BE;
 	padding: 1.5rem;
 	border-top-left-radius: 1.5rem;

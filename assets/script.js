@@ -11,29 +11,35 @@ let viewWebsite = document.querySelector(".view-website");
 function changeContent(projectNumber){
 	if(projectNumber == 1){
 		landingImg.src = "assets/images/function-img.png";
-		projectTitle.textContent = "FUNCTIONS";
-		subtitle.textContent = "TBD";
+		projectTitle.textContent = "ALUMNI PORTAL";
+		subtitle.textContent = "A simple platform to connect with Parsons alumni open to chatting, mentoring, or hiring—built to make networking easier and more human.";
 		repository.href = "https://github.com/mikaarai/functions";
 		viewWebsite.href = "https://mikaarai.github.io/functions/";
 	  } else if (projectNumber == 2) {
 		landingImg.src = "assets/images/links-img.png";
-		projectTitle.textContent = "LINKS";
-		subtitle.textContent = "TBD";
+		projectTitle.textContent = "PHILOSOPHER'S CAVE";
+		subtitle.textContent = "A site on philosophy and perception, inspired by books and education, with content by Inji Mammadli and powered by Are.na API";
 		repository.href = "https://github.com/mikaarai/links";
 		viewWebsite.href = "https://mikaarai.github.io/links/";
 	  } else if (projectNumber == 3) {
 		landingImg.src = "assets/images/binding-img.png";
-		projectTitle.textContent = "BINDING";
-		subtitle.textContent = "TBD";
+		projectTitle.textContent = "DIVERSITY & INCLUSION";
+		subtitle.textContent = "A visual exploration of diversity and inclusion, highlighting race, gender, accessibility, and underrepresented communities.";
 		repository.href = "https://github.com/mikaarai/binding";
 		viewWebsite.href = "https://mikaarai.github.io/binding/";
 	  } else if (projectNumber == 4) {
-		landingImg.src = "assets/images/manuscript.png";
-		projectTitle.textContent = "MANUSCRIPT";
-		subtitle.textContent = "TBD";
+		landingImg.src = "assets/images/manuscript-img.png";
+		projectTitle.textContent = "DON NORMAN'S CRITIQUE";
+		subtitle.textContent = "A nostalgic yet responsive website reflecting on Don Norman’s critique of modern design and honoring my father’s experience with ALS.";
 		repository.href = "https://github.com/mikaarai/manuscript";
 		viewWebsite.href = "https://mikaarai.github.io/manuscript/";
-	}
+	  } else if (projectNumber == 5) {
+		landingImg.src = "assets/images/spread-img.png";
+		projectTitle.textContent = "MUSEUM EXPERIENCE";
+		subtitle.textContent = "A collaboration with Huiji Ji exploring how digital design transforms museum experiences, blending immersive tech with timeless style.";
+		repository.href = "https://github.com/mikaarai/spread";
+		viewWebsite.href = "https://mikaarai.github.io/spread/";
+	  }
   }
 
 
