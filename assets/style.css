@@ -44,7 +44,7 @@ header {
 
 /* main	 */
 h1 {
-	font-size: calc(7*var(--base-size));
+	font-size: calc(6*var(--base-size));
 	letter-spacing: -8px;
 }
 p {
@@ -61,7 +61,7 @@ p {
 .repository {
 	border-radius: 25px;
 	border-color: var(--color-primary);
-	border: 3px var(--color-primary) solid;
+	border: 2px var(--color-primary) solid;
 	padding: .4rem .8rem;
 	font-family: var(--font-family-secondary);
 	font-weight: 400;
@@ -71,7 +71,7 @@ p {
 .view-website {
 	border-radius: 25px;
 	padding: .4rem .8rem;
-	border: 3px var(--color-primary) solid;
+	border: 2px var(--color-primary) solid;
 	font-family: var(--font-family-secondary);
 	font-weight: 400;
 	background-color: var(--color-primary);
@@ -86,11 +86,11 @@ p {
 .menu {
 	position: fixed;
 	right: 0;
-	top: 25%;
+	top: 22%;
 	background-color: #F0B5BE;
-	padding: 1.5rem;
-	border-top-left-radius: 1.5rem;
-	border-bottom-left-radius: 1.5rem;
+	padding: 1.2rem;
+	border-top-left-radius: 1.2rem;
+	border-bottom-left-radius: 1.2rem;
 }
 .menu ul {
 	display: flex;
