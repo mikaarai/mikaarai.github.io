@@ -56,6 +56,7 @@ p {
 }
 .title {
 	display: flex;
+	align-items: center;
 }
 .repository {
 	border-radius: 25px;
@@ -65,15 +66,18 @@ p {
 	font-family: var(--font-family-secondary);
 	font-weight: 400;
 	margin-left: calc(.5*var(--base-size));
+	font-size: calc(.8*var(--base-size));
 }
 .view-website {
 	border-radius: 25px;
 	padding: .4rem .8rem;
+	border: 3px var(--color-primary) solid;
 	font-family: var(--font-family-secondary);
 	font-weight: 400;
 	background-color: var(--color-primary);
 	margin-left: calc(.5*var(--base-size));
 	color: var(--color-background);
+	font-size: calc(.8*var(--base-size));
 }
 
 
@@ -108,3 +112,11 @@ p {
 	display: block;
 	margin: 0 auto;
 	}
+
+
+	/* mickey mouse hand */
+	.menu button,
+	.repository button,
+	.view-website button {
+ 	 cursor: pointer;
+}
