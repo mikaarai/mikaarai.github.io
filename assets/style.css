@@ -96,7 +96,7 @@ p {
 .menu ul {
 	display: flex;
 	flex-direction: column;
-	gap: calc(2*var(--base-size)); 
+	gap: calc(2*var(--base-size)); 	
 	padding-top: calc(1.5*var(--base-size)); 
 	padding-bottom: calc(1.5*var(--base-size)); 
 }
