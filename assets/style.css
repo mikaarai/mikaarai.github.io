@@ -1,7 +1,6 @@
 :root {
 	/* size */
 	--base-size: 22px;
-	/* --gutter-size: calc(3 * var(--base-size)); */
 
 	/* spacing */
 	--margin: 1rem;
@@ -16,8 +15,6 @@
 	--font-family-secondary: 'fredoka';
 
 	font-size: var(--base-size);
-
-
 }
 @media (min-width: 600px) {
 :root {
@@ -49,7 +46,6 @@ header {
 h1 {
 	font-size: calc(7*var(--base-size));
 	letter-spacing: -5px;
-
 }
 p {
 	font-family: var(--font-family-secondary);
@@ -80,6 +76,8 @@ p {
 	color: var(--color-background);
 }
 
+
+
 /* side-menu */
 .menu {
 	position: fixed;
@@ -90,7 +88,6 @@ p {
 	border-top-left-radius: 1.5rem;
 	border-bottom-left-radius: 1.5rem;
 }
-
 .menu ul {
 	display: flex;
 	flex-direction: column;
@@ -103,19 +100,8 @@ p {
   }
 
   
-
-/* footer */
-footer {
-	padding-top: var(--base-size);
-}
-
-.gutters {
-	padding-inline: var(--gutter-size);
-}	
-
-
+/* image */
 .hero-image {
-
 	width: 70%;
 	height: auto;
 	object-fit: contain;
