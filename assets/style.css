@@ -98,8 +98,11 @@ p {
 	padding-top: calc(1.5*var(--base-size)); 
 	padding-bottom: calc(1.5*var(--base-size)); 
 }
+.menu button.active {
+	color: white;
+  }
 
-
+  
 
 /* footer */
 footer {
