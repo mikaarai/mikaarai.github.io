@@ -56,8 +56,7 @@ p {
 	justify-content: space-between;
 }
 .title {
-	display: flex;
-	align-items: center;
+	margin-top: calc(1.5*var(--base-size));
 }
 .repository {
 	border-radius: 25px;
@@ -66,7 +65,6 @@ p {
 	padding: .4rem .8rem;
 	font-family: var(--font-family-secondary);
 	font-weight: 400;
-	margin-left: calc(.5*var(--base-size));
 	font-size: calc(.8*var(--base-size));
 }
 .view-website {

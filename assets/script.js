@@ -18,7 +18,7 @@ function changeContent(projectNumber){
 	  } else if (projectNumber == 2) {
 		landingImg.src = "assets/images/links-img.png";
 		projectTitle.textContent = "PHILOSOPHER'S CAVE";
-		subtitle.textContent = "A site on philosophy and perception, inspired by books and education, with content by Inji Mammadli and powered by Are.na API";
+		subtitle.textContent = "A site on philosophy and perception, inspired by books and education, with content by Inji Mammadli and powered by Are.na API.";
 		repository.href = "https://github.com/mikaarai/links";
 		viewWebsite.href = "https://mikaarai.github.io/links/";
 	  } else if (projectNumber == 3) {
