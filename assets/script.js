@@ -12,7 +12,7 @@ function changeContent(projectNumber){
 	if(projectNumber == 1){
 		landingImg.src = "assets/images/function-img.png";
 		projectTitle.textContent = "ALUMNI PORTAL";
-		subtitle.textContent = "A simple platform to connect with Parsons alumni open to chatting, mentoring, or hiring—built to make networking easier and more human.";
+		subtitle.textContent = "Built to make networking easier and more human for Parsons alumni.";
 		repository.href = "https://github.com/mikaarai/functions";
 		viewWebsite.href = "https://mikaarai.github.io/functions/";
 	  } else if (projectNumber == 2) {
