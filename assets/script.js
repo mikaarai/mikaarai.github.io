@@ -1,3 +1,4 @@
+// function
 let landingImg = document.querySelector(".hero-image");
 let projectTitle = document.querySelector("#project-title");
 let subtitle = document.querySelector(".subtitle");
@@ -5,6 +6,8 @@ let repository = document.querySelector(".repository");
 let viewWebsite = document.querySelector(".view-website");
 
 
+
+// filter for each page
 function changeContent(projectNumber){
 	if(projectNumber == 1){
 		landingImg.src = "assets/images/function-img.png";
