@@ -12,7 +12,7 @@ function changeContent(projectNumber){
 	if(projectNumber == 1){
 		landingImg.src = "assets/images/function-img.png";
 		projectTitle.textContent = "ALUMNI PORTAL";
-		subtitle.textContent = "Built to make networking easier and more human for Parsons alumni.";
+		subtitle.textContent = "Built to make networking easier and more human for Parsons alumni. Password: helloparsons.";
 		repository.href = "https://github.com/mikaarai/functions";
 		viewWebsite.href = "https://mikaarai.github.io/functions/";
 	  } else if (projectNumber == 2) {
